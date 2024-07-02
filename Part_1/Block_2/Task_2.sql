@@ -1,0 +1,1 @@
+UPDATE clients SET job_title = 'CEO' WHERE id = 2;
