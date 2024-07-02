@@ -19,4 +19,5 @@
     INSERT INTO clients (id, name, middle_name, last_name, job_title, phone, organization_name)
     VALUES (2, 'Ivan', 'Ivanovich', 'Ivanov', 'manager', 777-777, 'Fractal Form');
 
-    
+    INSERT INTO documents(id, document_date, status, id_user, id_client)
+    VALUES (1, 02.07.2024, 'create', 1,1)
