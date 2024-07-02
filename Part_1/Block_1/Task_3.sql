@@ -26,8 +26,8 @@ CREATE TABLE clients(
 CREATE TABLE documents(
     id SERIAL PRIMARY KEY,
     document_date DATE,
-    status VARCHAR
+    status VARCHAR,
     FOREIGN KEY (id_user) REFERENCES users (id),
-    FOREIGN KEY (id_client) REFERENCES clients(id),
+    FOREIGN KEY (id_client) REFERENCES clients(id)
     );
 
