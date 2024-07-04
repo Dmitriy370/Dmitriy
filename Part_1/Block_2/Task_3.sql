@@ -1,1 +1,1 @@
-DELETE FROM documents;
+DELETE * FROM documents;
