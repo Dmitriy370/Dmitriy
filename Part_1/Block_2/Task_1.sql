@@ -12,5 +12,5 @@
     VALUES ('Sergey', 'Sergeevich', 'Sergeev', 'CEO', '555-555', 'Top-Academy'),
     VALUES ('Ivan', 'Ivanovich', 'Ivanov', 'manager', '777-777', 'Fractal Form');
 
-    INSERT INTO documents(id, document_date, status, id_user, id_client)
-    VALUES (1, 02.07.2024, 'create', 1,1);
+    INSERT INTO documents(name, document_date, status, id_user, id_client)
+    VALUES ('Zapros', 02.07.2024, 'create', 1,1);

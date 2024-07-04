@@ -25,6 +25,7 @@ CREATE TABLE clients(
 
 CREATE TABLE documents(
     id SERIAL PRIMARY KEY,
+    name VARCHAR(16),
     document_date DATE NOT NULL,
     status VARCHAR NOT NULL,
     FOREIGN KEY (id_user) REFERENCES users (id),
