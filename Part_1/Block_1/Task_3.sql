@@ -27,7 +27,7 @@ CREATE TABLE documents(
     id SERIAL PRIMARY KEY,
     name TEXT,
     document_date DATE NOT NULL,
-    status TEXT NOT NULL,
+    status TEXT NOT NULL CHECK('create','approve','finish'),
     FOREIGN KEY (id_user) REFERENCES users (id),
     FOREIGN KEY (id_client) REFERENCES clients(id)
     );
